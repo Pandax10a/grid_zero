@@ -1,0 +1,17 @@
+#gridthis {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#pageOne {
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr 1fr;
+    max-width: 50vw;
+    justify-self: start;
+}
+#pageTwo {
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr 1fr;
+    max-width: 50vw;
+    justify-self: end;
+}
+
